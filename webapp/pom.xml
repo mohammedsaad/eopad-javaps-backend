@@ -120,6 +120,14 @@
                                 <exclude>WEB-INF/lib/httpclient-4.5.6.jar</exclude>
                                 <exclude>WEB-INF/lib/commons-logging-*.jar</exclude>
                                 <exclude>WEB-INF/lib/stax-api-1.0.1.jar</exclude>
+                                <exclude>WEB-INF/lib/spring-aop*.jar</exclude>
+                                <exclude>WEB-INF/lib/spring-beans*.jar</exclude>
+                                <exclude>WEB-INF/lib/spring-context*.jar</exclude>
+                                <exclude>WEB-INF/lib/spring-core*.jar</exclude>
+                                <exclude>WEB-INF/lib/spring-expression*.jar</exclude>
+                                <exclude>WEB-INF/lib/spring-jcl*.jar</exclude>
+                                <exclude>WEB-INF/lib/spring-web*.jar</exclude>
+                                <exclude>WEB-INF/lib/spring-webmvc*.jar</exclude>
                             </excludes>
                         </overlay>
                     </overlays>
