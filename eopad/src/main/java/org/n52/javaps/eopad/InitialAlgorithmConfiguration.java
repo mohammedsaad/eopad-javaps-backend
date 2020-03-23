@@ -23,13 +23,11 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class InitialAlgorithmConfiguration implements TransactionalAlgorithmConfigurer {
 
-    private static final String NDVI
-            = "https://raw.githubusercontent.com/52North/eopad-docker/master/ndvi/application-package.json";
-    private static final String QUALITY
-            = "https://raw.githubusercontent.com/52North/eopad-docker/master/quality/application-package.json";
+    private static final String STRING_REPLACE
+            = "https://raw.githubusercontent.com/mohammedsaad/string-replace/master/src/main/resources/application-package.json";
 
     @Override
     public void configure(TransactionalAlgorithmConfiguration configuration) {
-        configuration.addAlgorithmFromResource(NDVI).addAlgorithmFromResource(QUALITY);
+        configuration.addAlgorithmFromResource(STRING_REPLACE);
     }
 }
