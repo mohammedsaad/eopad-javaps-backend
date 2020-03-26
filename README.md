@@ -5,7 +5,8 @@
 1. init the `javaps-rest` submodule: `git submodule update --init javaps-rest/`
 2. run maven (e.g. `mvn clean install` or via an IDE)
 3. build the Docker image: `docker build -f local-build.Dockerfile -t eopad-javaps:latest .`
-4. run the Docker container: `docker run -p 8080:8080 --env-file .env eopad-javaps2:latest`
+4. run the Docker container (linux): `docker run -p 8080:8080 -v /var/run/docker.sock:/var/run/docker.sock --env-file .env eopad-javaps:latest`
+5. run the Docker container (windows): `docker run -p 8080:8080 -v //var/run/docker.sock:/var/run/docker.sock --env-file .env eopad-javaps:latest`
 
 Processing backend for javaPS containing processes for Testbed-15 EOPAD Thread
 

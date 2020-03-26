@@ -1,0 +1,25 @@
+POST http://localhost:8080/rest/processes/org.n52.docker.StringReplace/jobs HTTP/1.1
+Content-Type: application/json
+
+{
+   "inputs":[
+      {
+         "id":"source",
+         "input":{
+            "format":{
+               "mimeType":"text/plain"
+            },
+            "value": "yaya wps yaya"
+         }
+      }
+   ],
+   "outputs":[
+      {
+         "id":"output",
+         "format":{
+            "mimeType":"text/plain"
+         },
+         "transmissionMode":"value"
+      }
+   ]
+}
