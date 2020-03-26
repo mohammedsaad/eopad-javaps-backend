@@ -51,8 +51,8 @@ public class CatalogListener implements TransactionalAlgorithmRepositoryListener
 
     @Override
     public void onRegister(ApplicationPackage applicationPackage) {
-        updateOrInsertApplicationPackage(applicationPackage);
-        updateOrInsertServiceDescription();
+//        updateOrInsertApplicationPackage(applicationPackage);
+//        updateOrInsertServiceDescription();
     }
 
     @Override

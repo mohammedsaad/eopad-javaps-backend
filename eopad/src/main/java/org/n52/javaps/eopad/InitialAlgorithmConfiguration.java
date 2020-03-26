@@ -24,7 +24,7 @@ import org.springframework.context.annotation.Configuration;
 public class InitialAlgorithmConfiguration implements TransactionalAlgorithmConfigurer {
 
     private static final String STRING_REPLACE
-            = "https://raw.githubusercontent.com/mohammedsaad/string-replace/master/src/main/resources/application-package.json";
+            = "https://raw.githubusercontent.com/matthesrieke/string-replace/master/src/main/resources/application-package.json";
 
     @Override
     public void configure(TransactionalAlgorithmConfiguration configuration) {
